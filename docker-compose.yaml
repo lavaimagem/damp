@@ -30,6 +30,7 @@ services:
       - variables.env
     volumes:
       - ./www:/var/www
+      - ./etc/apache2/sites-enabled:/etc/apache2/sites-enabled
 
 volumes:
   mysql:
