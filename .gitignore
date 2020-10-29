@@ -1,1 +1,4 @@
 variables.env
+www/*
+etc/apache2/sites-enable/*
+!etc/apache2/sites-enable/000-default.conf.example
